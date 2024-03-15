@@ -24,9 +24,9 @@ public class BaseTest {
 		
 		
 		log = Logger.getLogger("NOP Comm Application");
-//		PropertyConfigurator.configure(".\\testData\\log4j.properties");
+		PropertyConfigurator.configure("./testData/log4j.properties");
 		
-		PropertyConfigurator.configure(".\\testData\\Incedolog.properties");
+	//	PropertyConfigurator.configure(".\\testData\\Incedolog.properties");
 		
 		
 		log.info("===============info=======================");

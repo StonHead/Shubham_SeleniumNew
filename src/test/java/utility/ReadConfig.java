@@ -12,7 +12,7 @@ public class ReadConfig {
 
 		System.out.println("=============inside ReadConfig constructor=================");
 
-		FileInputStream fis = new FileInputStream(".\\testData\\config.properties");
+		FileInputStream fis = new FileInputStream("./testData/config.properties");
 
 		prop = new Properties();
 

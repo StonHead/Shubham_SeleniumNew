@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.467 s <<< FAILURE! - in TestSuite
+log4JExample.LoginApp.launchApp  Time elapsed: 1.194 s  <<< FAILURE!
+java.io.FileNotFoundException: .\testData\config.properties (No such file or directory)
+

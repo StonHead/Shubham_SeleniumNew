@@ -1,0 +1,18 @@
+2024-03-14 13:31:57,440 [main] INFO NOP Comm Application - ===============info=======================
+2024-03-14 13:31:57,445 [main] WARN NOP Comm Application - ===============warn=======================
+2024-03-14 13:31:57,445 [main] ERROR NOP Comm Application - ===============error=======================
+2024-03-14 13:31:57,445 [main] INFO NOP Comm Application - launching a chrome browser
+2024-03-14 13:31:59,508 [main] INFO NOP Comm Application - Read application url from config  file: https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F
+2024-03-14 13:32:00,816 [main] INFO NOP Comm Application - application launched sucessfully.
+2024-03-14 13:32:00,848 [main] INFO NOP Comm Application - clear the email details
+2024-03-14 13:32:02,928 [main] INFO NOP Comm Application - enter email details from config file: admin@yourstore.com
+2024-03-14 13:32:03,005 [main] INFO NOP Comm Application - clear the pass details
+2024-03-14 13:32:05,058 [main] INFO NOP Comm Application - enter pass details from config file: admin
+2024-03-14 13:32:05,096 [main] INFO NOP Comm Application - click on checkbox
+2024-03-14 13:32:05,132 [main] INFO NOP Comm Application - click on loginButton
+2024-03-14 13:32:06,535 [main] INFO NOP Comm Application - ===============Validation Step after login=============
+2024-03-14 13:32:07,542 [main] INFO NOP Comm Application - Dashboard / nopCommerce administration
+2024-03-14 13:32:07,542 [main] INFO NOP Comm Application - click on Logout Button
+2024-03-14 13:32:09,029 [main] INFO NOP Comm Application - ===============Validation Step after logout=============
+2024-03-14 13:32:09,040 [main] INFO NOP Comm Application - Your store. Login
+2024-03-14 13:32:09,045 [main] INFO NOP Comm Application - closing an application

@@ -1,7 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.467 s <<< FAILURE! - in TestSuite
-log4JExample.LoginApp.launchApp  Time elapsed: 1.194 s  <<< FAILURE!
-java.io.FileNotFoundException: .\testData\config.properties (No such file or directory)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.776 s <<< FAILURE! - in TestSuite
+log4JExample.LoginApp.verifyLoginFeature  Time elapsed: 7.854 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="nav-link" href="/logout">...</a> is not clickable at point (1409, 28). Other element would receive the click: <div id="ajaxBusy" style="display: block;">...</div>
+  (Session info: chrome=122.0.6261.129)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d094d768917683e0d0b3d70d19308499, clickElement {id=f.A63B293D41BB1F2CAB9B93DA2A177446.d.45B764D5D29B31A79FDCC145034779F1.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: /var/folders/76/kw71pxh14nj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63277}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63277/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d094d768917683e0d0b3d70d19308499)] -> partial link text: Logo]
+Session ID: d094d768917683e0d0b3d70d19308499
+	at log4JExample.LoginApp.verifyLoginFeature(LoginApp.java:42)
 
